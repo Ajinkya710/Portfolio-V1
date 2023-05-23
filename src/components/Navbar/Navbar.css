@@ -1,0 +1,31 @@
+
+.resume_link { 
+    border: 1px solid var(--green); 
+    color: var(--green);
+    padding:7px;
+    text-decoration: none;
+    text-transform: none;
+    font-family: var(--font-mono);
+}
+
+.resume_link_appbar {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.navbar_links {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.typography {
+    margin-right: 5px;
+    color: var(--green);
+    font-size: var(--fz-xxs);
+    text-align: right;
+}
+
+#menu-appbar {
+    color: var(--navy);
+}

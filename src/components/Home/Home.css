@@ -1,0 +1,36 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content {
+    display: block;
+    text-align: justify;
+    max-width: 1000px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    color: var(--slate);
+}
+
+.header {
+    color: var(--green);
+    font-size: clamp(10px, 5vw, 20px);
+}
+
+.name {
+    color: var(--lightest-slate);
+    font-size: clamp(40px, 6vw, 60px);
+}
+
+.desc {
+    color: var(--slate);
+}
+
+@media screen and (max-width: 900px) {  
+    .content {
+        padding: 0 2rem ;
+    }
+}
