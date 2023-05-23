@@ -6,7 +6,7 @@ const Connect = () => {
         <div id='connect'>
             <div className='main connect'>
                 <div className='fMdyDu content'>
-                    <section id=" connect" className="fMdyDu" data-sr-id="15"
+                    <section id="connect" data-sr-id="15"
                         style={{ visibility: 'visible', opacity: 1 }}
                     >
                         <h2 className="connect_heading">What’s Next?</h2>
