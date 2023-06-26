@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 const About = () => {
     return (
         <div id='about'>
-            <div className='main'>
+            <div className='about main'>
                 <div className='content'>
                     <h1 className='numbered_heading'>About Me</h1>
                     <p className='about_desc'>I am a professional software developer with 5+ years of industry experience. I have worked with Tata Consultancy Services in the past, where I gained experience
@@ -19,18 +19,33 @@ const About = () => {
                 </div>
                 <div className='content skills'>
                     <h2>Skills</h2>
+                    <h4>Programming languages</h4>
                     <div className='skills_set'>
+                        <div className='skills_skill'>JavaScript</div>
+                        <div className='skills_skill'>Java</div>
+                        <div className='skills_skill'>C++</div>
+                        <div className='skills_skill'>Python</div>
                         <div className='skills_skill'>HTML</div>
                         <div className='skills_skill'>CSS</div>
+                        <div className='skills_skill'>Bash Scripting</div>
+                    </div>
+                    <h4>Frameworks</h4>
+                    <div className='skills_set'>
                         <div className='skills_skill'>React</div>
-                        <div className='skills_skill'>JavaScript</div>
-                        <div className='skills_skill'>Express Basics</div>
-                        <div className='skills_skill'>SQL</div>
+                        <div className='skills_skill'>Express.js</div>
+                        <div className='skills_skill'>Google Firebase</div>
+                        <div className='skills_skill'>Next.js</div>
+                    </div>
+                    <h4>Databases</h4>
+                    <div className='skills_set'>
+                        <div className='skills_skill'>MySQL</div>
                         <div className='skills_skill'>MongoDB</div>
-                        <div className='skills_skill'>Python</div>
-                        <div className='skills_skill'>C++</div>
-                        <div className='skills_skill'>C#</div>
-                        <div className='skills_skill'>Unity</div>
+                    </div>
+                    <h4>Version Control and cloud Infrastructure</h4>
+                    <div className='skills_set'>
+                        <div className='skills_skill'>Git</div>
+                        <div className='skills_skill'>RCS</div>
+                        <div className='skills_skill'>AWS(Learner)</div>
                     </div>
                     <p>
                         I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.

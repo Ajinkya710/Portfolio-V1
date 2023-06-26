@@ -1,11 +1,13 @@
 import React from 'react';
-import './Connect.css';
+import './Projects.css';
 
-const Connect = () => {
+const Projects = () => {
     return (
-        <div id='connect'>
-            <div className='main connect'>
-                <div className='fMdyDu content'>
+        <div id='projects'>
+            <div className='main project'>
+                <div className='content'>
+                <h1>Coming Soon...</h1>
+                {/* <div className='fMdyDu content'>
                     <section id="connect" data-sr-id="15"
                         style={{ visibility: 'visible', opacity: 1 }}
                     >
@@ -21,6 +23,7 @@ const Connect = () => {
 
                 <div className='earxGk'>
                     <p>Designed &amp; Built by Ajinkya Buva.</p>
+                </div> */}
                 </div>
             </div>
 
@@ -28,4 +31,4 @@ const Connect = () => {
     )
 }
 
-export default Connect
+export default Projects

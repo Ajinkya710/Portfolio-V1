@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import Resume from '../../assests/Ajinkya_Buva_Resume.pdf'
+import Resume from '../../assests/Ajinkya_Resume.pdf'
 import './Navbar.css';
 
 const pages = [
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <a href='#home' className='navbar_links'>
                         <Box sx={{ flexGrow: 0, display: 'flex' }}>
                             <IconButton>
-                                <Avatar variant="rounded" alt="Ajinkya Buva" src="/static/images/avatar/2.jpg" />
+                                <Avatar variant="rounded" src="../../assests/Me.jpg" />
                             </IconButton>
                             <p style={{ color: 'var(--lightest-slate)', fontFamily: 'var(--font-mono)', fontWeight: '900', fontSize: '22px' }}>AJINKYA BUVA</p>
                         </Box>
@@ -76,12 +76,14 @@ const Navbar = () => {
                             open={Boolean(anchorElNav)}
                             onClose={handleCloseNavMenu}
                             sx={{
-                                display: { xs: 'block', md: 'none' },
+                                display: { xs: 'block', md: 'none'}
                             }}
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page.id} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center" sx={{ color: 'var(--lightest-slate)' }}><span className='typography'>{page.id + ". "}</span><span>{page.name}</span> </Typography>
+                                    <a style={{textDecoration:'none'}} href={page.link} >
+                                        <Typography textAlign="center" sx={{ color: 'var(--lightest-slate)' }}><span className='typography'>{page.id + ". "}</span><span>{page.name}</span> </Typography>
+                                    </a>
                                 </MenuItem>
                             ))}
                             <Button>

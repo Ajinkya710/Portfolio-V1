@@ -1,8 +1,12 @@
+.home {
+    padding: 18rem 0;
+}
+
 .main{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: flex-start;
 }
 

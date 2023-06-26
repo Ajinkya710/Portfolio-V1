@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
-import me from '../../assests/me.png'
+// import me from '../../assests/me.png'
 const Home = () => {
     return (
         <div id='home'>
-            <div className='main'>
+            <div className='main home'>
                 <div className='content'>
                     <div>
                         <h1 className='header'>Hi, my name is</h1>
